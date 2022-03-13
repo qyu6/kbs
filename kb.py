@@ -36,7 +36,7 @@ def main():
 
     # input_word = input("请输入搜索内容:").strip().lower()
     # st.subheader('🐼[T.Q Knowledge Base]')
-    input_word1 = st.text_input('©🐼|2022-3-13|FindYourKnowledge','')
+    input_word1 = st.text_input('©🐼|SearchYourKL(2022/3/13)','')
     input_word = input_word1.strip().lower()
     input_word_exist = re.sub(u"([u4e00-\u9fa5\u0030-\u0039\u0041-\u005a\u0061-\u007a])","",input_word)
     input_word = input_word.split()
